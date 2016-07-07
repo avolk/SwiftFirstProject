@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644E67871D2EE6EC00A9EF61 /* SMSFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E67861D2EE6EC00A9EF61 /* SMSFunctions.swift */; };
 		6461F8B71D2C433C002D19AB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6461F8B61D2C433C002D19AB /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		644E67861D2EE6EC00A9EF61 /* SMSFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSFunctions.swift; sourceTree = SOURCE_ROOT; };
 		6461F8B31D2C433C002D19AB /* Texter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Texter; sourceTree = BUILT_PRODUCTS_DIR; };
 		6461F8B61D2C433C002D19AB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				6461F8B61D2C433C002D19AB /* main.swift */,
+				644E67861D2EE6EC00A9EF61 /* SMSFunctions.swift */,
 			);
 			path = Texter;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6461F8B71D2C433C002D19AB /* main.swift in Sources */,
+				644E67871D2EE6EC00A9EF61 /* SMSFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +245,7 @@
 				6461F8BC1D2C433C002D19AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
